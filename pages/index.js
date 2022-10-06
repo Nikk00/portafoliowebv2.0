@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from './Hero'
+import Headerr from './Header'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
@@ -22,6 +23,7 @@ const Home = () => {
           height: "100%",
         }}
       >
+      {/* <Headerr /> */}
       {/* Hero */}
       <Hero />
       </div>

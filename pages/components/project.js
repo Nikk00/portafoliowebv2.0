@@ -3,7 +3,7 @@ import { BsGithub } from 'react-icons/bs'
 export default function Project (prop){
 
     return(
-        <div className={`flex flex-col flex-shrink-0 w-[320px] lg:w-[500px] md:w-[400px] rounded-lg border shadow-md bg-gray-800 border-gray-500 lg:p-4 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden snap-center snap-always`}> 
+        <div className={`flex flex-col flex-shrink-0 w-[305px] lg:w-[500px] md:w-[400px] rounded-lg border shadow-md bg-gray-800 border-gray-500 lg:p-4 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden snap-center snap-always`}> 
             <img className="rounded-t-lg" src={prop.image} alt="" />
             <div className="p-5">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{prop.title}</h5>
