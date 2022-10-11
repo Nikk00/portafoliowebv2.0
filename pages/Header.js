@@ -9,7 +9,7 @@ import { MdOutlineContactPhone } from 'react-icons/md'
 import { FaLaptopCode } from 'react-icons/fa'
 const Header = () => {
   return (
-    <div className="">
+    <>
       <div className="lg:grid md:grid sm:grid hidden">
         <div className="fixed top-0 p-3 flex items-start justify-self-center justify-between w-full lg:w-3/4 z-20 text-sm lg:text-lg md:text-lg sm:text-lg text-white bg-[rgb(58,58,58)] rounded-2xl mt-1 bg-opacity-40">
           <motion.div
@@ -111,7 +111,7 @@ const Header = () => {
               </li>
             </ul>
       </div>
-    </div>
+    </>
   );
 };
 

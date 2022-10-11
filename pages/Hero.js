@@ -22,33 +22,36 @@ const Hero = () => {
             transition={{
               duration:2.5
             }}
-            className="relative flex flex-col justify-center items-center place-content-center"
+            className="grid grid-cols-3 justify-center items-center place-content-center"
           >
-            <div className="border border-sky-400 rounded-full h-96 w-96 mt-64 animate-ping"></div>
-            <div className="absolute mt-40">
-              <Image src={fotoPerfil} alt="" className="rounded-full" width={124} height={124}/>
-              <h2 className="text-sm uppercase text-gray-400 tracking-[5px]">
-                Ingeniero Civil Informático
-              </h2>
-              <h1 className="text-xl font-semibold">
-                <span>
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "Hola, Mi nombre es Nicolás Luza",
-                        "y me apasiona la codificación.",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      delay: "50"
-                    }}
-                  />
-                </span>
-              </h1>
-              <h2 className="text-sm uppercase text-gray-400 tracking-[5px]">
-                  Desarrollador FullStack
-              </h2>
+            <div className="col-span-3 flex flex-col justify-center items-center">
+              <div className="border border-sky-400 rounded-full h-96 w-96 mt-64 animate-ping"></div>
+              <div className="absolute mt-52">
+                <Image src={fotoPerfil} alt="" className="rounded-full" width={124} height={124}/>
+                <h2 className="text-sm uppercase text-gray-400 tracking-[5px]">
+                  Ingeniero Civil Informático
+                </h2>
+                <h1 className="text-xl font-semibold">
+                  <span>
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Hola, Mi nombre es Nicolás Luza",
+                          "y me apasiona la codificación.",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        delay: "50"
+                      }}
+                    />
+                  </span>
+                </h1>
+                <h2 className="text-sm uppercase text-gray-400 tracking-[5px]">
+                    Desarrollador FullStack
+                </h2>
+              </div>
             </div>
+
         </motion.div>
       </div>
       </>
