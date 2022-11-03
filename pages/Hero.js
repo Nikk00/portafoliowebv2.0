@@ -27,7 +27,12 @@ const Hero = () => {
             <div className="col-span-3 flex flex-col justify-center items-center">
               <div className="border border-sky-400 rounded-full h-96 w-96 mt-64 animate-ping"></div>
               <div className="absolute mt-52">
-                <Image src={fotoPerfil} alt="" className="rounded-full" width={124} height={124}/>
+                <div className="flex flex-col items-center">
+                  <picture>
+                    <img src="/images/fotoperfil.jpeg" className="rounded-full" alt="" width="124" height="124"></img>
+                  </picture>
+                </div>
+                {/* <Image src={fotoPerfil} alt="" className="rounded-full" width={124} height={124}/> */}
                 <h2 className="text-sm uppercase text-gray-400 tracking-[5px]">
                   Ingeniero Civil Informático
                 </h2>

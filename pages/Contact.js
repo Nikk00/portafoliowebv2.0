@@ -19,7 +19,7 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         >
-          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col">
+          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col items-center">
             <h1 className="uppercase tracking-[5px] text-sky-500 text-xl text-center">
               Correo Electrónico
             </h1>
@@ -33,7 +33,7 @@ const Contact = () => {
               </button>
             </Link>
           </div>
-          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col">
+          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col items-center">
             <h1 className="uppercase tracking-[5px] text-sky-500 text-xl text-center">
               Mensaje
             </h1>
@@ -47,7 +47,7 @@ const Contact = () => {
               </button>
             </Link>
           </div>
-          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col">
+          <div className="bg-gray-700 w-full h-44 lg:w-96 lg:h-52 bg-opacity-50 border-solid rounded-xl p-5 flex flex-col items-center">
             <h1 className="uppercase tracking-[5px] text-sky-500 text-xl text-center">
               Curriculum
             </h1>
