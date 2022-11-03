@@ -1,5 +1,6 @@
 import React from "react";
-import developer from '../public/images/software-developer.jpg'
+//import developer from '../public/images/software-developer.jpg'
+import developer from '../public/images/Programmer-rafiki.png'
 import Image from "next/image";
 import {motion} from 'framer-motion'
 const About = () => {

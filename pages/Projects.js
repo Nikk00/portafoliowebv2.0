@@ -2,7 +2,9 @@ import React from "react";
 import Project from "./components/project"
 import { FaReact } from 'react-icons/fa'
 import { SiMongodb, SiTailwindcss } from 'react-icons/si'
+import { AiFillHtml5 } from 'react-icons/ai'
 import { TbBrandNextjs } from 'react-icons/tb'
+import {TbApi} from 'react-icons/tb'
 const Projects = () => {
     return (
       <div className="grid grid-cols-3 h-screen place-content-center">
@@ -45,6 +47,14 @@ const Projects = () => {
             descrip={"Página web solicitada por un familiar el cual se iba a casar."}
             linkGit={"https://github.com/Nikk00/enzo-teresa"}
             link={'https://teresayenzo.vercel.app/'}
+            ></Project>
+            <Project
+            image={'/images/api-cursos.png'} 
+            title={"API Cursos"}
+            icons={<div className="flex flex-row space-x-1"><AiFillHtml5 className="w-8 h-8 text-orange-600" /><SiTailwindcss className="w-8 h-8 text-blue-500" /><TbApi className="w-8 h-8 text-sky-500"/></div>}   
+            descrip={"API creada para obtener cupones de cursos de Udemy."}
+            linkGit={"https://github.com/Nikk00/api-cursos"}
+            link={'https://api-cursos.vercel.app/'}
             ></Project>
           </div>
         </div>
