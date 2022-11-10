@@ -19,8 +19,9 @@ const About = () => {
             </picture>
             <h1 className="text-2xl lg:text-2xl  md:text-2xl mt-5 text-white uppercase tracking-[20px]">Sobre Mi</h1>
             <p className="text-white text-md lg:text-xl md:text-xl mt-5 font-semibold">
-            Hola! Soy Nicolás Luza, me titulé como Ingeniero Civil en Informática en la Universidad de Tarapacá el año 2022. 
-            Me considero una persona autodidacta que le apasiona la programación y conocer nuevas tecnologías.
+            Hola!👋​ Soy Nicolás Luza, me titulé 🎓 como Ingeniero Civil en Informática en la Universidad de Tarapacá y tengo interés en trabajar 
+            con equipos multidisciplinarios, motivados y en constante crecimiento tecnológico. Me encuentro una persona autodidacta, responsable, 
+            puntual y con pensamiento critico, además de no tener ningun problema en aprender nuevas tecnologías. 💻
             </p>
           </motion.div>
         </div>
